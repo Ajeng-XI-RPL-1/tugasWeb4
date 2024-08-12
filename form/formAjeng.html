@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <title>Formulir Pendaftaran Ekskul</title>
+    <head>
+        <link rel="stylesheet" href="formAjeng.css">
+    </head>
+    <body>
+        <header class="header">
+            <img src="download.jpeg" alt="logo">
+            <nav>
+                <p><b>Formulir Pendaftaran Ekskul</b></p>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <table>
+                    <fieldset>
+                    <div><h3>Biodata</h3></div>
+                    <form action="/submit-form" method="post">
+                        <label for="username">Nama Lengkap</label><br>
+                        <input type="text" id="username" name="username"><br>
+                        <label for="username">Tempat Lahir</label><br>
+                        <input type="text" id="username" name="username"><br>
+                        <label for="username">Tanggal Lahir</label><br>
+                        <input type="datetime-local" inputmode="numeric" id="birth date" name="birth date"><br>
+                        <label for="username">Usia</label><br>
+                        <input type="number" inputmode="numeric" id="birth date" name="birth date" min="1"><br>
+                        <p>Jenis Kelamin</p>
+                        <input type="radio" id="html" name="Jenis Kelamin" value="Jenis Kelamin">
+                        <label for="html">Laki-laki</label><br>
+                        <input type="radio" id="html" name="Jenis Kelamin" value="Jenis Kelamin">
+                        <label for="html">Perempuan</label>
+                    </fieldset>
+                    <fieldset><p>Agama</p>
+                        <select id="agama">
+                            <option value="islam">Islam</option>
+                            <option value="kristen">Kristen Protestan</option>
+                            <option value="katolik">Kristen Katolik</option>
+                            <option value="buddha">Buddha</option>
+                            <option value="hindu">Hindu</option>
+                            <option value="konghucu">Konghucu</option>
+                            <option value="penghayat kepercayaan">Penghayat kepercayaan</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                     <p>Kelas</p>
+                        <select id="kelas">
+                            <option value="X PPLG 1">X PPLG 1</option>
+                            <option value="X PPLG 2">X PPLG 2</option>
+                            <option value="X PPLG 3">X PPLG 3</option>
+                            <option value="X MPLB 1">X MPLB 1</option>
+                            <option value="X MPLB 2">X MPLB 2</option>
+                            <option value="X MPLB 3">X MPLB 3</option>
+                            <option value="X PH 1">X PH 1</option>
+                            <option value="X PH 2">X PH 2</option>
+                            <option value="X PH 3">X PH 3</option>
+                            <option value="X TO 1">X TO 1</option>
+                            <option value="X TO 2">X TO 2</option>
+                            <option value="X TO 3">X TO 3</option>
+                            <option value="XI RPL 1">XI RPL 1</option>
+                            <option value="XI RPL 2">XI RPL 2</option>
+                            <option value="XI MPLB 1">XI MPLB 1</option>
+                            <option value="XI MPLB 2">XI MPLB 2</option>
+                            <option value="XI MPLB 3">XI MPLB 3</option>
+                            <option value="XI PH 1">XI PH 1</option>
+                            <option value="XI PH 2">XI PH 2</option>
+                            <option value="XI PH 3">XI PH 3</option>
+                            <option value="XI TO 1">XI TO 1</option>
+                            <option value="XI TO 2">XI TO 2</option>
+                            <option value="XI TO 3">XI TO 3</option>
+                            <option value="XII RPL 1">XII RPL 1</option>
+                            <option value="XII RPL 2">XII RPL 2</option>
+                            <option value="XII RPL 3">XII RPL 3</option>
+                            <option value="XII MPLB 1">XII MPLB 1</option>
+                            <option value="XII MPLB 2">XII MPLB 2</option>
+                            <option value="XII MPLB 3">XII MPLB 3</option>
+                            <option value="XII PH 1">XII PH 1</option>
+                            <option value="XII PH 2">XII PH 2</option>
+                            <option value="XII PH 3">XII PH 3</option>
+                            <option value="XII TO 1">XII TO 1</option>
+                            <option value="XII TO 2">XII TO 2</option>
+                            <option value="XII TO 3">XII TO 3</option>
+                        </select>   
+                    </fieldset>    
+                    <fieldset>
+                        <div><h3>Alamat</h3></div>
+                        <label for="alamat">Alamat Lengkap</label><br>
+                        <input type="text" id="addres" name="Alamat"><br>
+                        <label for="alamat">RT</label><br>
+                        <input type="text" id="addres" name="Alamat"><br>
+                        <label for="alamat">RW</label><br>
+                        <input type="text" id="addres" name="Alamat"><br>
+                    </fieldset>    
+                    <fieldset>
+                        <p>Desa</p>
+                        <select id="desa" name="desa" value="desa">
+                            <option value="cipada">Cipada</option>
+                            <option value="jambudipa">Jambudipa</option>
+                            <option value="pada asih">Pada asih</option>
+                            <option value="pasir halang">Pasir halang</option>
+                            <option value="pasir langu">Pasir langu</option>
+                            <option value="tugu mukti">Tugu mukti</option>
+                            <option value="sadang mekar">Sadang mekar</option>
+                        </select>
+                    </fieldset>    
+                    <fieldset>
+                        <p>Kecamatan</p>
+                        <select id="Kecamatan" name="Kecamatan">
+                            <option value="cisarua">Cisarua</option>
+                            <option value="parongpong">Parongpong</option>
+                            <option value="lembang">Lembang</option>
+                            <option value="ngamprah">Ngamprah</option>
+                            <option value="padalarang">Padalarang</option>
+                            <option value="cipatat">Cipatat</option>
+                            <option value="cikalong">Cikalong wetan</option>
+                            <option value="batujajar">Batujajar</option>
+                        </select>
+                    </fieldset>    
+                    <fieldset>
+                        <p>Kabupaten/kota</p>
+                        <select id="kab/kota" name="kab/kota">
+                            <option value="kab. bandung barat">Kab. Bandung Barat</option>
+                            <option value="kab. bandung">Kab. Bandung</option>
+                            <option value="kab. cianjur">Kab. Cianjur</option>
+                            <option value="kab. sumedang">Kab. Sumedang</option>
+                            <option value="kota bandung">Kota Bandung</option>
+                            <option value="kota cimahi">Kota Cimahi</option>
+                        </select>
+                    </fieldset>    
+                    <fieldset>
+                        <p>Provinsi</p>
+                        <select id="prov" name="prov">
+                            <option value="jawa barat">Jawa Barat</option>
+                            <option value="jawa tengah">Jawa Tengah</option>
+                            <option value="jawa timur">Jawa Timur</option>
+                            <option value="jakarta">DKI Jakarta</option>
+                        </select>
+                    </fieldset>    
+                    <fieldset>
+                        <p>Kode Pos</p>
+                        <input type="number" id="kode pos" name="kode pos">
+                        <p><h3>Kontak</h3></p>
+                        <label for="phone">No Telpon</label><br>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+                        <label for="email">email</label><br>
+                        <input type="email" id="email" name="email">
+                    </fieldset>    
+                    <fieldset>
+                        <p>Akun</p>
+                        <label for="username">Username</label><br>
+                        <input type="text" id="username" name="username"><br>
+                        <label for="username">Password</label><br>
+                        <input type="password" id="username" name="username"><br>
+                        <label for="username">Konfirmasi Password</label><br>
+                        <input type="password" id="username" name="username"><br>
+                    </fieldset>    
+                    <fieldset>
+                        <p><h3>Ekstrakurikuler</h3></p>
+                        <p>bisa pilih lebih dari satu</p>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">PMR (Palang Merah Remaja)</label><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Seni Tari</label><br>
+                        <select id="ekskul" name="ekskul">
+                            <option value="Tari Tradisional">Tari Tradisional</option>
+                            <option value="Tari Modern">Tari Modern</option>
+                        </select><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Karawitan</label><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Taekwondo</label><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Karate</label><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Hadroh</label><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Futsal Putra</label><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Futsal Putri</label><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Volly</label><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Badminton</label><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Basket</label><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Berenang</label><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Adiwiyata</label><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Paskibra</label><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Paduan Suara</label><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Seni Bernyanyi</label><br>
+                        <input type="checkbox" id="ekskul" name="ekskul">
+                        <label for="ekskul">Pencak Silat</label><br>
+                    </fieldset>    
+                    <fieldset>
+                        <p><h3>Upload Persyaratan</h3></p>
+                        <p>Upload pas foto 3x4</p>
+                        <input type="image" id="pas foto" name="pas foto">
+                        <p>Upload kartu tanda pelajar</p>
+                        <input type="file" id="kartu pelajar" name="kartu pelajar">
+                    </fieldset>
+                    <fieldset>
+                        <input type="reset">
+                        <input type="submit">
+                    </fieldset>                            
+                    </form>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <p> hak cipta &copy; ajeng kartini 2024</p>
+        </footer>
+    </body>
+</html>
